@@ -21,6 +21,8 @@ app.use(
   cors({
     origin: [
       'https://thedidsburywardrobe.netlify.app', 
+      'https://www.thedidsburywardrobe.uk',
+      'https://thedidsburywardrobe.uk',
       /^https:\/\/.*\.netlify\.app$/,  // Allows any Netlify preview URL
       'http://localhost:3000',
       'https://www.instagram.com',

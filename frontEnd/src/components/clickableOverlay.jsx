@@ -78,9 +78,7 @@ const OverlayClickableIframe = ({ src, clothingId }) => {
               marginTop: 10,
             }}
             src={src}
-            sandbox="allow-scripts allow-forms"
             loading="lazy"
-            referrerPolicy="no-referrer"
             allow="fullscreen"
           ></iframe>
         ) : (
@@ -121,9 +119,7 @@ const OverlayClickableIframe = ({ src, clothingId }) => {
               marginTop: 10,
             }}
             src={src}
-            sandbox="allow-scripts allow-forms"
             loading="lazy"
-            referrerPolicy="no-referrer"
             allow="fullscreen"
           ></iframe>
         ) : (
